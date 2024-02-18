@@ -1,0 +1,77 @@
+<template>
+  <div class="pagination-panel">
+    <div class="r">
+      <el-input
+        placeholder="请输入搜索内容"
+        v-model="inputVal"
+        @keyup.enter.native="Search_table"
+        clearable
+      >
+      </el-input>
+      <el-button type="search" @click="Search_table">搜索</el-button>
+    </div>
+    <el-table :data="tableData" border style="width: 100%">
+      <el-table-column type="index" :index="index"> </el-table-column>
+      <el-table-column prop="name" label="树种" width="180"> </el-table-column>
+      <el-table-column prop="soil" label="土壤" width="180"> </el-table-column>
+      <el-table-column prop="climate" label="气候"> </el-table-column>
+    </el-table>
+    <el-pagination
+      @size-change="handleSizeChange"
+      @current-change="handleCurrentChange"
+      :current-page="index"
+      :page-sizes="[10, 20, 50, 100]"
+      :page-size="pageSize"
+      background
+      layout="total, sizes, prev, pager, next, jumper"
+      :total="totalSize"
+      next-text="下一页"
+      prev-text="上一页"
+    ></el-pagination>
+  </div>
+</template>
+<script>
+import axios from "axios";
+export default {
+  data() {
+    return {
+      inputVal: "",
+      pageSize: 10,
+      totalSize: null,
+      index: 1,
+      tableData: [], //el-table  绑定的数据
+      tableDataALL: [], //所有返回的数据  处理后赋值到tableData
+      time: [], // 时间 yyyy-MM-dd hh:mm:ss
+    };
+  },
+  mounted() {
+    axios.get("http://127.0.0.1:8000/api/tree1/").then((res) => {
+      this.tableDataALL = res.data;
+      this.getList();
+    });
+  },
+  methods: {
+    getList() {
+      this.tableData = this.tableDataALL.filter(
+        (item, index) =>
+          index < this.index * this.pageSize &&
+          index >= this.pageSize * (this.index - 1)
+      );
+      this.totalSize = this.tableDataALL.length;
+    },
+    /**
+     * @name: 分页
+     */
+    handleSizeChange(val) {
+      // console.log(`每页 ${val} 条`);
+      this.pageSize = val;
+      this.getList();
+    },
+    handleCurrentChange(val) {
+      // console.log(`当前页: ${val}`);
+      this.index = val;
+      this.getList();
+    },
+  },
+};
+</script>

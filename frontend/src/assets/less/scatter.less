@@ -1,0 +1,311 @@
+#scatter {
+    // height: 70%;
+    height: 80vh;
+    width: 50vw;
+    // background-color: red;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    // -webkit-animation: twinkling_B 1s infinite ease-in-out;
+    /*1秒钟的开始结束都慢的无限次动画*/
+    padding-top: 3%;
+    background-size: 4px 20px, 20px 4px, 4px 20px, 20px 4px;
+    border: 1px solid #073F97;
+    position: relative;
+
+    .title {
+        display: inline-block;
+        width: 35%;
+        background: #05286C;
+        font-size: 20px;
+        position: absolute;
+        top: 0;
+        left: 32%;
+        padding: 4px 0px;
+        color: #19E8FE;
+        text-align: center;
+        border-radius: 0 0 10px 10px;
+
+    }
+    .name {
+        width: 100%;
+        position:absolute;
+        left: 42%;
+        top: 10%;
+        font-size: 40px; 
+        color:red; 
+        animation: changeshadow 1s  ease-in  infinite ;
+        /* 其它浏览器兼容性前缀 */
+        -webkit-animation: changeshadow 1s linear infinite;
+        -moz-animation: changeshadow 1s linear infinite;
+        -ms-animation: changeshadow 1s linear infinite;
+        -o-animation: changeshadow 1s linear infinite;
+
+    }
+    .image {
+        width: 20%;
+        position:absolute;
+        left: 35%;
+        top: 65%;
+    }
+    .box-card {
+        border: 3px outset #ff0000; 
+        width: 50%;
+        height: 35%;
+        position: absolute;
+        left: 25%;
+        top: 25%;
+        .clearfix:before,
+        .clearfix:after {
+            display: table;
+            content: "";
+        }
+
+        .clearfix:after {
+            clear: both
+        }
+
+        .text {
+            color: #ff0000;
+            margin-bottom: 18px;
+            font-size: 0.8rem;
+            padding-left: 20px;
+            .card_span {
+               
+            }
+            strong {
+                font-size: 1.3rem;
+            }
+
+        }
+        .info_span {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.7rem;
+        }
+    }
+}
+
+
+// 右侧工具栏
+.item9 {
+
+    width: 40%;
+    height: 100%;
+    // height:55rem;
+    padding-top: 2%;
+ 
+    background-size: 4px 20px, 20px 4px, 4px 20px, 20px 4px;
+
+    position: relative;
+    border: 8px ridge #CC9999;
+    // background: url('../images/wood_big2.jpg');
+    background-size:cover;
+    .tip {
+        width: 95%;
+        padding: 10px;
+        background-color: #ffc107;
+        text-align: center; //让字居中对齐
+        margin: 10px;
+        font-size: 14px;
+        margin-top: 30px;
+    }
+
+    .button_club {
+        width: 95%;
+
+        border: 4px solid #ffff66;
+        margin: 10px;
+        padding: 10px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        // -webkit-animation: twinkling_G 1s infinite ease-in-out;
+        /*1秒钟的开始结束都慢的无限次动画*/
+        // background: url('../images/wood3.jpg');
+        background-size:cover;
+        
+    }
+
+
+
+
+
+    .form {
+
+        // border: 8px ridge #CC9999;
+        border: 1px solid #073f97;
+
+        padding: 10px;
+        margin: 10px;
+        border: 4px solid green;
+        padding-top: 10%;
+        // -webkit-animation: twinkling_R 1s infinite ease-in-out;
+        /*1秒钟的开始结束都慢的无限次动画*/
+        // background: url('../images/wood3.jpg');
+        background-size:cover;
+
+    }
+
+    .include {
+        // border: 8px inset #2CD5FF;
+        padding: 10px;
+        margin: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        width: 96%;
+
+        .color_picker {
+            // background: url('../images/wood3.jpg');
+            background-size:cover;
+            width: 10vw;
+            display: flex;
+
+            margin: 10px;
+            padding: 10px;
+            border: 4px solid green;
+            // padding-top: 10%;
+            // -webkit-animation: twinkling_R 1s infinite ease-in-out;
+            /*1秒钟的开始结束都慢的无限次动画*/
+
+            .demonstration {
+                margin-left: 10px;
+                text-align: center;
+            }
+        }
+    }
+
+
+
+
+}
+
+
+.item9 .title {
+    display: inline-block;
+    width: 35%;
+    background: #05286c;
+    font-size: 20px;
+    position: absolute;
+    top: 0;
+    left: 32%;
+    padding: 4px 0px;
+    color: #19e8fe;
+    border-radius: 0 0 10px 10px;
+    text-align: center; //让字居中对齐
+}
+
+// 变化到绿色
+@-webkit-keyframes twinkling_G {
+
+    /*透明度由0到1*/
+    0% {
+        border-color: #ffff66;
+        box-shadow: 0 0 10px rgba(0, 255, 0, 0.2),
+            inset 0 0 10px rgba(0, 255, 0, 0.1), 0 1px 0 #393;
+    }
+
+    100% {
+        border-color: #6f6;
+        // border-color: red;
+        box-shadow: 0 0 25px rgba(0, 255, 0, 0.6),
+            inset 0 0 15px rgba(125, 231, 125, 0.4), 0 1px 0 #6f6;
+    }
+}
+
+
+
+
+// 变化到蓝色
+@-webkit-keyframes twinkling_B {
+
+    /*透明度由0到1*/
+    0% {
+        border-color: paleturquoise;
+        box-shadow: 0 0 10px rgba(0, 255, 0, 0.2),
+            inset 0 0 10px rgba(0, 255, 0, 0.1), 0 1px 0 #393;
+    }
+
+    100% {
+        border-color: blue;
+        // border-color: red;
+        box-shadow: 0 0 25px blue,
+            inset 0 0 15px rgba(125, 231, 125, 0.4), 0 1px 0 #6f6;
+    }
+}
+
+// 变化到红色
+@-webkit-keyframes twinkling_R {
+
+    /*透明度由0到1*/
+    0% {
+        border-color: #ffff66;
+        box-shadow: 0 0 10px rgba(0, 255, 0, 0.2),
+            inset 0 0 10px rgba(0, 255, 0, 0.1), 0 1px 0 #393;
+    }
+
+    100% {
+        border-color: #6f6;
+        border-color: red;
+        box-shadow: 0 0 25px rgba(0, 255, 0, 0.6),
+            inset 0 0 15px pink, 0 1px 0 red;
+    }
+}
+
+
+@keyframes changeshadow {  
+    0%{ text-shadow: 0 0 4px #4cc134}  
+    50%{ text-shadow: 0 0 40px #4cc134}  
+    100%{ text-shadow: 0 0 4px #4cc134}  
+}
+/* 添加兼容性前缀 */
+@-webkit-keyframes changeshadow {
+  0%{ text-shadow: 0 0 4px #4cc134}  
+      50%{ text-shadow: 0 0 40px #4cc134}  
+      100%{ text-shadow: 0 0 4px #4cc134}  
+}
+@-moz-keyframes changeshadow {
+    0%{ text-shadow: 0 0 4px #4cc134}  
+        50%{ text-shadow: 0 0 40px #4cc134}  
+        100%{ text-shadow: 0 0 4px #4cc134}  
+}
+@-ms-keyframes changeshadow {
+    0%{ text-shadow: 0 0 4px #4cc134}  
+        50%{ text-shadow: 0 0 40px #4cc134}  
+        100%{ text-shadow: 0 0 4px #4cc134}  
+}
+@-o-keyframes changeshadow {
+    0%{ text-shadow: 0 0 4px #4cc134}  
+        50%{ text-shadow: 0 0 40px #4cc134}  
+        100%{ text-shadow: 0 0 4px #4cc134}  
+}
+
+
+.el-button {
+    width: 12vw;
+    font-size: 20px;
+}
+
+.el-button--primary,.el-button--warning{
+    font-size: 0.8rem;
+}
+/deep/input::-webkit-input-placeholder {
+    /* placeholder颜色 */
+    // color: #aab2bd;
+    /* placeholder字体大小 */
+    font-size: 12px;
+}
+/deep/.el-input--mini .el-input__inner {
+ height: 25px;   
+}
+/deep/label {
+    font-size: 14px;
+}
+.el-form{
+    margin-left: 1%;
+}

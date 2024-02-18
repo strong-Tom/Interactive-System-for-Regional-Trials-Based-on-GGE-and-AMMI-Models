@@ -1,0 +1,101 @@
+Date : 2022-04-13 17:42:30
+Directory : c:\Users\zyq\Desktop\我的网站\(前端)man
+Total : 49 files,  34638 codes, 238 comments, 195 blanks, all 35071 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| JSON       |          2 |     29,280 |          0 |          2 |     29,282 |
+| Vue.js     |         20 |      2,498 |        120 |         74 |      2,692 |
+| JavaScript |         18 |      2,446 |         86 |         94 |      2,626 |
+| XML        |          2 |        295 |          0 |          1 |        296 |
+| Less       |          4 |         79 |          9 |         13 |        101 |
+| HTML       |          1 |         20 |         17 |          5 |         42 |
+| Markdown   |          1 |         19 |          0 |          6 |         25 |
+| CSS        |          1 |          1 |          6 |          0 |          7 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++-------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                | files      | code       | comment    | blank      | total      |
++-------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                   |         49 |     34,638 |        238 |        195 |     35,071 |
+| aatest                                                                              |          2 |         74 |          8 |         45 |        127 |
+| api                                                                                 |          5 |        203 |         29 |         24 |        256 |
+| api\mockServeData                                                                   |          2 |        139 |          8 |          7 |        154 |
+| config                                                                              |          1 |          6 |          0 |          1 |          7 |
+| public                                                                              |          2 |         27 |         17 |          6 |         50 |
+| public\files                                                                        |          1 |          7 |          0 |          1 |          8 |
+| router                                                                              |          1 |        105 |          5 |          4 |        114 |
+| src                                                                                 |         16 |      2,674 |         53 |         36 |      2,763 |
+| src\assets                                                                          |          6 |        368 |         15 |         13 |        396 |
+| src\assets\css                                                                      |          1 |          1 |          6 |          0 |          7 |
+| src\assets\fonts                                                                    |          1 |        288 |          0 |          0 |        288 |
+| src\assets\less                                                                     |          4 |         79 |          9 |         13 |        101 |
+| src\components                                                                      |          5 |      2,197 |          5 |          6 |      2,208 |
+| src\components\lib                                                                  |          2 |      1,919 |          0 |          0 |      1,919 |
+| src\plugins                                                                         |          1 |          5 |          0 |          1 |          6 |
+| src\utils                                                                           |          2 |         29 |         13 |          4 |         46 |
+| store                                                                               |          2 |         34 |          8 |          5 |         47 |
+| views                                                                               |         15 |      2,204 |        115 |         64 |      2,383 |
+| views\home                                                                          |          1 |        285 |         19 |         17 |        321 |
+| views\tree                                                                          |          1 |        349 |         31 |         11 |        391 |
+| views\user                                                                          |          1 |         11 |          0 |          1 |         12 |
++-------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++-------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                                            | language   | code       | comment    | blank      | total      |
++-------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| c:\Users\zyq\Desktop\我的网站\(前端)man\README.md                                         | Markdown   |         19 |          0 |          6 |         25 |
+| c:\Users\zyq\Desktop\我的网站\(前端)man\aatest\test.js                                    | JavaScript |         74 |          8 |         44 |        126 |
+| c:\Users\zyq\Desktop\我的网站\(前端)man\aatest\test.vue                                   | Vue.js     |          0 |          0 |          1 |          1 |
+| c:\Users\zyq\Desktop\我的网站\(前端)man\api\axios.js                                      | JavaScript |         35 |          9 |          6 |         50 |
+| c:\Users\zyq\Desktop\我的网站\(前端)man\api\data.js                                       | JavaScript |         26 |         12 |          8 |         46 |
+| c:\Users\zyq\Desktop\我的网站\(前端)man\api\mock.js                                       | JavaScript |          3 |          0 |          3 |          6 |
+| c:\Users\zyq\Desktop\我的网站\(前端)man\api\mockServeData\home.js                         | JavaScript |        131 |          8 |          4 |        143 |
+| c:\Users\zyq\Desktop\我的网站\(前端)man\api\mockServeData\tablelist.js                    | JavaScript |          8 |          0 |          3 |         11 |
+| c:\Users\zyq\Desktop\我的网站\(前端)man\babel.config.js                                   | JavaScript |          5 |          0 |          1 |          6 |
+| c:\Users\zyq\Desktop\我的网站\(前端)man\config\index.js                                   | JavaScript |          6 |          0 |          1 |          7 |
+| c:\Users\zyq\Desktop\我的网站\(前端)man\package-lock.json                                 | JSON       |     29,202 |          0 |          1 |     29,203 |
+| c:\Users\zyq\Desktop\我的网站\(前端)man\package.json                                      | JSON       |         78 |          0 |          1 |         79 |
+| c:\Users\zyq\Desktop\我的网站\(前端)man\public\files\thumbnails.svg                       | XML        |          7 |          0 |          1 |          8 |
+| c:\Users\zyq\Desktop\我的网站\(前端)man\public\index.html                                 | HTML       |         20 |         17 |          5 |         42 |
+| c:\Users\zyq\Desktop\我的网站\(前端)man\router\index.js                                   | JavaScript |        105 |          5 |          4 |        114 |
+| c:\Users\zyq\Desktop\我的网站\(前端)man\src\App.vue                                       | Vue.js     |         16 |          0 |          3 |         19 |
+| c:\Users\zyq\Desktop\我的网站\(前端)man\src\assets\css\bootstrap.min.css                  | CSS        |          1 |          6 |          0 |          7 |
+| c:\Users\zyq\Desktop\我的网站\(前端)man\src\assets\fonts\glyphicons-halflings-regular.svg | XML        |        288 |          0 |          0 |        288 |
+| c:\Users\zyq\Desktop\我的网站\(前端)man\src\assets\less\common.less                       | Less       |         10 |          0 |          1 |         11 |
+| c:\Users\zyq\Desktop\我的网站\(前端)man\src\assets\less\home.less                         | Less       |         66 |          8 |         11 |         85 |
+| c:\Users\zyq\Desktop\我的网站\(前端)man\src\assets\less\index.less                        | Less       |          3 |          0 |          1 |          4 |
+| c:\Users\zyq\Desktop\我的网站\(前端)man\src\assets\less\reset.less                        | Less       |          0 |          1 |          0 |          1 |
+| c:\Users\zyq\Desktop\我的网站\(前端)man\src\components\CommonAside.vue                    | Vue.js     |        161 |          4 |          5 |        170 |
+| c:\Users\zyq\Desktop\我的网站\(前端)man\src\components\CommonHeader.vue                   | Vue.js     |        114 |          1 |          1 |        116 |
+| c:\Users\zyq\Desktop\我的网站\(前端)man\src\components\lib\pdf.min.js                     | JavaScript |        538 |          0 |          0 |        538 |
+| c:\Users\zyq\Desktop\我的网站\(前端)man\src\components\lib\pdf.worker.min.js              | JavaScript |      1,381 |          0 |          0 |      1,381 |
+| c:\Users\zyq\Desktop\我的网站\(前端)man\src\components\zyq.vue                            | Vue.js     |          3 |          0 |          0 |          3 |
+| c:\Users\zyq\Desktop\我的网站\(前端)man\src\main.js                                       | JavaScript |         59 |         20 |          9 |         88 |
+| c:\Users\zyq\Desktop\我的网站\(前端)man\src\plugins\vxe-table.js                          | JavaScript |          5 |          0 |          1 |          6 |
+| c:\Users\zyq\Desktop\我的网站\(前端)man\src\utils\readfile.js                             | JavaScript |         23 |         13 |          2 |         38 |
+| c:\Users\zyq\Desktop\我的网站\(前端)man\src\utils\utils.js                                | JavaScript |          6 |          0 |          2 |          8 |
+| c:\Users\zyq\Desktop\我的网站\(前端)man\store\index.js                                    | JavaScript |         19 |          4 |          3 |         26 |
+| c:\Users\zyq\Desktop\我的网站\(前端)man\store\tab.js                                      | JavaScript |         15 |          4 |          2 |         21 |
+| c:\Users\zyq\Desktop\我的网站\(前端)man\views\ModifyPassword.vue                          | Vue.js     |        116 |          2 |          3 |        121 |
+| c:\Users\zyq\Desktop\我的网站\(前端)man\views\ModifyUser.vue                              | Vue.js     |        137 |          6 |          3 |        146 |
+| c:\Users\zyq\Desktop\我的网站\(前端)man\views\UserCenter.vue                              | Vue.js     |         85 |          2 |          4 |         91 |
+| c:\Users\zyq\Desktop\我的网站\(前端)man\views\home\index.vue                              | Vue.js     |        285 |         19 |         17 |        321 |
+| c:\Users\zyq\Desktop\我的网站\(前端)man\views\lineChart.vue                               | Vue.js     |         96 |          7 |          0 |        103 |
+| c:\Users\zyq\Desktop\我的网站\(前端)man\views\loginRegister.vue                           | Vue.js     |        372 |         10 |          6 |        388 |
+| c:\Users\zyq\Desktop\我的网站\(前端)man\views\main.vue                                    | Vue.js     |         40 |          0 |          3 |         43 |
+| c:\Users\zyq\Desktop\我的网站\(前端)man\views\trainingResults.vue                         | Vue.js     |         23 |          0 |          1 |         24 |
+| c:\Users\zyq\Desktop\我的网站\(前端)man\views\treeShow.vue                                | Vue.js     |         57 |          0 |          1 |         58 |
+| c:\Users\zyq\Desktop\我的网站\(前端)man\views\tree\index.vue                              | Vue.js     |        349 |         31 |         11 |        391 |
+| c:\Users\zyq\Desktop\我的网站\(前端)man\views\uploadExcel.vue                             | Vue.js     |        264 |         19 |          3 |        286 |
+| c:\Users\zyq\Desktop\我的网站\(前端)man\views\uploadVideo.vue                             | Vue.js     |        162 |          6 |          1 |        169 |
+| c:\Users\zyq\Desktop\我的网站\(前端)man\views\user\index.vue                              | Vue.js     |         11 |          0 |          1 |         12 |
+| c:\Users\zyq\Desktop\我的网站\(前端)man\views\videoInfo.vue                               | Vue.js     |         63 |          5 |          8 |         76 |
+| c:\Users\zyq\Desktop\我的网站\(前端)man\views\videoSearch.vue                             | Vue.js     |        144 |          8 |          2 |        154 |
+| c:\Users\zyq\Desktop\我的网站\(前端)man\vue.config.js                                     | JavaScript |          7 |          3 |          1 |         11 |
+| Total                                                                               |            |     34,638 |        238 |        195 |     35,071 |
++-------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+

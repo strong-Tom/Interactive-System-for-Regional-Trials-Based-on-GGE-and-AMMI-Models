@@ -1,0 +1,9 @@
+node_id,num,num_pct,class,rule
+3,329,0.6026,良性, unif_cell_size <= 2.5 and bare_nuclei <= 6.0 and norm_nucleoli <= 8.0 
+14,139,0.2546,恶性, unif_cell_size > 2.5 and unif_cell_shape > 2.5 and unif_cell_size > 4.5 
+13,51,0.0934,恶性, unif_cell_size > 2.5 and unif_cell_shape > 2.5 and unif_cell_size <= 4.5 
+10,13,0.0238,良性, unif_cell_size > 2.5 and unif_cell_shape <= 2.5 and bland_chrom <= 3.5 
+7,6,0.011,恶性, unif_cell_size <= 2.5 and bare_nuclei > 6.0 and clump_thickness > 2.5 
+11,6,0.011,恶性, unif_cell_size > 2.5 and unif_cell_shape <= 2.5 and bland_chrom > 3.5 
+4,1,0.0018,恶性, unif_cell_size <= 2.5 and bare_nuclei <= 6.0 and norm_nucleoli > 8.0 
+6,1,0.0018,良性, unif_cell_size <= 2.5 and bare_nuclei > 6.0 and clump_thickness <= 2.5 

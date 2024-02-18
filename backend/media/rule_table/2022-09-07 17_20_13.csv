@@ -1,0 +1,9 @@
+node_id,num,num_pct,class,rule
+3,86,0.3629,恶性, cp <= 3.5 and thal <= 0.5 and oldpeak <= 3.55 
+14,53,0.2236,良性, cp > 3.5 and thal > 0.5 and oldpeak > 0.55 
+10,27,0.1139,恶性, cp > 3.5 and thal <= 0.5 and ca <= 0.5 
+7,26,0.1097,恶性, cp <= 3.5 and thal > 0.5 and thalach > 143.0 
+13,21,0.0886,良性, cp > 3.5 and thal > 0.5 and oldpeak <= 0.55 
+11,14,0.0591,良性, cp > 3.5 and thal <= 0.5 and ca > 0.5 
+6,9,0.038,良性, cp <= 3.5 and thal > 0.5 and thalach <= 143.0 
+4,1,0.0042,良性, cp <= 3.5 and thal <= 0.5 and oldpeak > 3.55 

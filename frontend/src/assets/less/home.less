@@ -1,0 +1,85 @@
+.user {
+    display: flex;
+    // justify-content:space-evenly;
+    
+  img {
+    width: 180px;
+    height: 180px;
+    margin-right: 40px;
+    border-radius: 50%;
+  }
+  .name {
+      margin-top:60px;
+  }
+}
+body,html {
+    background-color: #f4f4f4;
+}
+// 右上边的整体卡片
+.num {
+    display: flex;
+    justify-content:space-evenly;
+    // 规定弹性项目是否应换行
+    flex-wrap: wrap;
+    // 一个卡片
+    .numCard {
+        
+        display: flex;
+
+        margin-top:20px;
+        margin-right: 20px;
+        width: 280px;
+        height: 80px;
+        .cc{
+            // background-color: red;
+            height: 100%;
+            display: flex;
+
+            .l {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 100px;
+                // background-color: black;
+                i {
+                    width: 100%;
+                    height: 100%;
+                    font-size:50px;
+                    text-align: center;
+                    line-height:80px;
+                  
+                }
+            }
+            .r {
+                // background-color: pink;
+                width: 528px;
+                
+                .mon {
+                    margin-top:20px;
+                    margin-bottom:0px;
+                    margin-left: 20px;
+                    font-size: 20px;
+                }
+                .txt {
+                    font-size:10px;
+                    margin-left: 20px;
+
+                }
+                
+            }
+        }
+       
+    }
+}
+// 消除card自带的padding
+.el-card__body {
+    padding:0px;
+}
+
+.loginInfo {
+    margin-left: 20px;
+}
+.el-header {
+    background-color: gray !important
+    
+}

@@ -1,0 +1,40 @@
+Date : 2022-03-26 15:24:07
+Directory : c:\Users\zhuyi\Desktop\我的网站\(前端)man\views
+Total : 13 files,  1960 codes, 121 comments, 71 blanks, all 2152 lines
+
+Languages
++----------+------------+------------+------------+------------+------------+
+| language | files      | code       | comment    | blank      | total      |
++----------+------------+------------+------------+------------+------------+
+| Vue.js   |         13 |      1,960 |        121 |         71 |      2,152 |
++----------+------------+------------+------------+------------+------------+
+
+Directories
++--------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                         | files      | code       | comment    | blank      | total      |
++--------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                            |         13 |      1,960 |        121 |         71 |      2,152 |
+| home                                                         |          1 |        285 |         19 |         17 |        321 |
+| tree                                                         |          1 |        349 |         36 |         11 |        396 |
+| user                                                         |          1 |         11 |          0 |          1 |         12 |
++--------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++--------------------------------------------------------------+----------+------------+------------+------------+------------+
+| filename                                                     | language | code       | comment    | blank      | total      |
++--------------------------------------------------------------+----------+------------+------------+------------+------------+
+| c:\Users\zhuyi\Desktop\我的网站\(前端)man\views\ModifyPassword.vue | Vue.js   |        116 |          2 |          3 |        121 |
+| c:\Users\zhuyi\Desktop\我的网站\(前端)man\views\ModifyUser.vue     | Vue.js   |        137 |          6 |          3 |        146 |
+| c:\Users\zhuyi\Desktop\我的网站\(前端)man\views\UserCenter.vue     | Vue.js   |         85 |          2 |          4 |         91 |
+| c:\Users\zhuyi\Desktop\我的网站\(前端)man\views\home\index.vue     | Vue.js   |        285 |         19 |         17 |        321 |
+| c:\Users\zhuyi\Desktop\我的网站\(前端)man\views\loginRegister.vue  | Vue.js   |        371 |         10 |          6 |        387 |
+| c:\Users\zhuyi\Desktop\我的网站\(前端)man\views\main.vue           | Vue.js   |         41 |          0 |          3 |         44 |
+| c:\Users\zhuyi\Desktop\我的网站\(前端)man\views\treeShow.vue       | Vue.js   |         57 |          0 |          1 |         58 |
+| c:\Users\zhuyi\Desktop\我的网站\(前端)man\views\tree\index.vue     | Vue.js   |        349 |         36 |         11 |        396 |
+| c:\Users\zhuyi\Desktop\我的网站\(前端)man\views\uploadExcel.vue    | Vue.js   |        160 |         17 |          9 |        186 |
+| c:\Users\zhuyi\Desktop\我的网站\(前端)man\views\uploadVideo.vue    | Vue.js   |        141 |         16 |          3 |        160 |
+| c:\Users\zhuyi\Desktop\我的网站\(前端)man\views\user\index.vue     | Vue.js   |         11 |          0 |          1 |         12 |
+| c:\Users\zhuyi\Desktop\我的网站\(前端)man\views\videoInfo.vue      | Vue.js   |         63 |          5 |          8 |         76 |
+| c:\Users\zhuyi\Desktop\我的网站\(前端)man\views\videoSearch.vue    | Vue.js   |        144 |          8 |          2 |        154 |
+| Total                                                        |          |      1,960 |        121 |         71 |      2,152 |
++--------------------------------------------------------------+----------+------------+------------+------------+------------+
