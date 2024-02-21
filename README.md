@@ -1,7 +1,24 @@
 # Interactive-System-for-Regional-Trials-Based-on-GGE-and-AMMI-Models
 Convenient for agricultural experts to use GGE and AMMI models more conveniently
 
-The front-end of this project is completed using Vue and the back-end is completed using DJango.
+The front-end of this project is completed using Vue and the back-end is completed using DJango.The Python version is 3.7.9, and the Yarn version is 1.22.19，The django version is 3.2.12.
+
+The command for running the Vue project on the front-end is:
+```
+yarn serve
+```
+The command for running the django project on the backend is:
+```
+python manage.py runserver
+```
+The project includes the requirement file, which contains the required Python package dependencies. The command to install the Python package dependencies for the project using pip is:
+```
+pip install -r requirements.txt
+```
+The dependent commands for installing the Vue project using Yarn are:
+```
+yarn install
+```
 
 This includes the AMMI model, GGE model, and scatter plot,as shown in the following figure.Users can change various data in the panel according to their preferences.
 ![image](https://github.com/strong-Tom/Interactive-System-for-Regional-Trials-Based-on-GGE-and-AMMI-Models/assets/54710966/8f4e60c7-9ae6-4bec-9148-8a1cb71ddce0)
@@ -21,3 +38,4 @@ You can also upload data themselves to verify the effect. If you want to upload 
 The scatter plot function can view the growth of samples of different tree species in different regions. The sample data that needs to be uploaded is shown in the following figure. Users need to upload the location label, variety label, as well as the height and diameter of the sample.
 
 ![image](https://github.com/strong-Tom/Interactive-System-for-Regional-Trials-Based-on-GGE-and-AMMI-Models/assets/54710966/e88a44bf-7213-4c93-8b6f-7017b6783de7)
+
