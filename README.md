@@ -20,6 +20,15 @@ The dependent commands for installing the Vue project using Yarn are:
 ```
 yarn install
 ```
+Install the specified version node:
+```
+nvm install 16.14.0
+```
+Use the specified version node:
+```
+nvm use 16.14.0
+```
+
 ## Function screenshot
 This includes the AMMI model, GGE model, and scatter plot,as shown in the following figure.Users can change various data in the panel according to their preferences.
 ![image](https://github.com/strong-Tom/Interactive-System-for-Regional-Trials-Based-on-GGE-and-AMMI-Models/assets/54710966/8f4e60c7-9ae6-4bec-9148-8a1cb71ddce0)
