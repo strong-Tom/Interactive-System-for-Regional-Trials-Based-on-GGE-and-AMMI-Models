@@ -2,7 +2,7 @@
 Convenient for agricultural experts to use GGE and AMMI models more conveniently
 
 ## General introduction
-The front-end of this project is completed using Vue and the back-end is completed using DJango.The Python version is 3.7.9, and the Yarn version is 1.22.19，The django version is 3.2.12.
+The front-end of this project is completed using Vue and the back-end is completed using DJango.The Python version is 3.7.9, and the Yarn version is 1.22.19，django version is 3.2.12，node version is v16.14.0.
 
 The command for running the Vue project on the front-end is:
 ```
