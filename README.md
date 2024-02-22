@@ -1,5 +1,7 @@
 # Interactive-System-for-Regional-Trials-Based-on-GGE-and-AMMI-Models
 Convenient for agricultural experts to use GGE and AMMI models more conveniently
+The online website for this project is:
+http://175.24.133.23/
 
 ## General introduction
 The front-end of this project is completed using Vue and the back-end is completed using DJango.The Python version is 3.7.9, and the Yarn version is 1.22.19，django version is 3.2.12，node version is v16.14.0，pip version is 23.0.
