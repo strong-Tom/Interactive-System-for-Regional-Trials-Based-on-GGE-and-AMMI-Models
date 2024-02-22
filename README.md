@@ -51,7 +51,7 @@ Users can directly download sample data to verify the effect,Or preview the effe
 
 ![image](https://github.com/strong-Tom/Interactive-System-for-Regional-Trials-Based-on-GGE-and-AMMI-Models/assets/54710966/27094d64-97d2-491a-a15a-c14cfcf08357)
 
-You can also upload data themselves to verify the effect. If you want to upload data for use, the format of the data is shown in the following figure. Rows represent different varieties, columns represent different locations, and row names are optional. Column names need to be specified to distinguish different locations. The GGE model and AMMI model both use this format of data.
+You can also upload data themselves to verify the effect. If you want to upload data for use, the format of the data is shown in the following figure. Rows represent different varieties, columns represent different locations, and row names are optional,Column names need to be specified to distinguish different locations.Each data item is represented by tree height, which is more obvious and intuitive for yield. Therefore, the AMMI and GGE graphs only use tree height as a measure of yield and do not use diameter.The GGE model and AMMI model both use this format of data.
 
 ![image](https://github.com/strong-Tom/Interactive-System-for-Regional-Trials-Based-on-GGE-and-AMMI-Models/assets/54710966/3ee4696a-8d2f-4ed2-ae09-eca90ebb8e5f)
 
