@@ -4,7 +4,7 @@ Convenient for agricultural experts to use GGE and AMMI models more conveniently
 The online website for this project is:
 http://175.24.133.23/
 
-You can register and log in, or you can directly use your existing account and password to log in:
+You can register and log in, or you can directly use existing account and password to log in:
 
 Account: zhuyiqi842@qq.com
 
